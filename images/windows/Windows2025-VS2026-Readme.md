@@ -1,9 +1,9 @@
 | Announcements |
 |-|
-| [[Windows] The `windows-11-arm` image label will use Windows 11 Arm64 with Visual Studio 2026 image in September 2026](https://github.com/actions/runner-images/issues/14602) |
+| [[Windows] The `windows-11-arm` image label will use Windows 11 Arm64 with Visual Studio 2026 image in September 2026](https://github.com/web4hub/hosted-runner-images/issues/14602) |
 | [[Windows] The Windows 11 Arm64 with Visual Studio 2026 is now generally available in GitHub Actions](https://github.com/actions/runner-images/issues/14592) |
 ***
-# Windows Server 2025
+# Windows Server 2026
 - OS Version: 10.0.26100 Build 33438
 - Image Version: 20260925.250.1
 
