@@ -33,7 +33,8 @@ RUN apt-get update && \
 COPY toolsets/ /tmp/toolsets/
 
 RUN find /tmp/scripts -name "*.sh" -type f -exec chmod +x {} \; && \
-    chmod +x /tmp/scripts/entrypoint.sh
+    chmod +x /tmp/scripts/entrypoint.sh && \
+    cp /tmp/scripts/entrypoint.sh /opt/entrypoint.sh
 
 RUN echo 'set -eo pipefail' >> /etc/bash.bashrc
 
