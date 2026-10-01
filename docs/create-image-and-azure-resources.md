@@ -82,7 +82,7 @@ All the commands below should be executed in PowerShell.
 First, clone the runner-images repository and set the current directory to it:
 
 ```powershell
-git clone https://github.com/actions/runner-images.git
+git clone https://github.com/web4hub/hosted-runner-images.git
 Set-Location runner-images
 ```
 
